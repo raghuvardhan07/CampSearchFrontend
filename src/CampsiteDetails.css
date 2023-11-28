@@ -1,0 +1,103 @@
+/* CampsiteDetails.css */
+
+.container {
+  display: flex;
+  flex-direction: column; /* Updated to column layout */
+  align-items: center;
+  padding: 20px;
+  margin: auto 20px;
+}
+
+.details-container {
+  margin-top: 5rem;
+  display: flex;
+  gap: 10rem;
+  width: 90vw;
+}
+
+.image-container {
+  max-width: 800px;
+  max-height: 400px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.details {
+  flex: 1;
+  font-size: x-large;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+  font-style: italic;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 8px;
+}
+
+.loading {
+  font-size: 1.2em;
+  font-style: italic;
+  color: #888;
+}
+
+.comments {
+  margin-top: 20px;
+  color: #333;
+  position: relative;
+  width: 95%;
+  
+}
+
+.comments h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.comments ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comments li {
+  font-size: 1em;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+
+.comment-form {
+  margin-top: 20px;
+  display: flex; 
+  width: 70%;
+}
+
+.comment-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.comment-form button {
+  background-color: #4caf50;
+  color: white;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #45a049;
+}
